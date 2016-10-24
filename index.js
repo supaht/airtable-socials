@@ -15,10 +15,10 @@ function myFunction() {
    var Airtable = require('airtable');
    var base = new Airtable({ apiKey: 'keyavbuTLcnhJBwKt' }).base('appk3kBRjuom1ivqW');
    base('days').create({
-      "date": "2016-10-22",
-      "media": 506,
-      "follows": 1031,
-      "followed_by": 6945
+      "date": "2016-10-23",
+      "media": 507,
+      "follows": 1032,
+      "followed_by": 6912
       }, function(err, record) {
             if (err) { console.log(err); return; }
             console.log(record);
