@@ -11,7 +11,7 @@ function IG_getCounts() {
    return result.data.counts;
 }
 
-function myFunction() {
+function main() {
    var Airtable = require('airtable');
    var base = new Airtable({ apiKey: 'keyavbuTLcnhJBwKt' }).base('appk3kBRjuom1ivqW');
    base('days').create({
